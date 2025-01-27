@@ -9,7 +9,8 @@ const Hero = () => {
       
       <div className="profile-container">
       <img className="circle-image" src={circle} alt="Profile" />
-    </div>
+
+      </div>
       <h1><span>I'm Praneeth</span>     Software Engineer</h1>
       <p>I am frontend developer from Tirupati. I have worked with API integration, redux, and building responsive web applications</p>
       <div className="hero-action">
