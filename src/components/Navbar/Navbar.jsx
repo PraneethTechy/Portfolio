@@ -4,7 +4,10 @@ import logo from '../../assets/logo.svg';
 import underline from '../../assets/nav_underline.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg';
+import logPort from '../../assets/port1.png';
+
 import menu_close from '../../assets/menu_close.svg';
+
 
 const Navbar = () => {
   const [menu, setMenu] = useState('home');
@@ -17,7 +20,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" />
+<img src={logPort} alt="Logo" style={{ width: '100px', height: '100px', margin:'30px' }} />
+
       <img src={menu_open} onClick={toggleMenu} alt="Open Menu" className="nav-mob-open" />
       <ul ref={menuRef} className={`nav-menu ${isMenuOpen ? 'open' : 'closed'}`}>
         <img src={menu_close} onClick={toggleMenu} alt="Close Menu" className="nav-mob-close" />

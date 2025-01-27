@@ -74,7 +74,21 @@
   }
   
 
-
+  @media (max-width: 768px) {
+    .circle-image {
+      width: 120px; /* Adjust width for smaller screens */
+      height: 120px; /* Adjust height to maintain the circle */
+    }
+  }
+  
+  /* For mobile devices with a max width of 480px */
+  @media (max-width: 480px) {
+    .circle-image {
+      width: 100px; /* Further adjust width for very small screens */
+      height: 100px; /* Keep it circular */
+    }
+  }
+  
 
 
 @media(max-width:768px){
