@@ -12,7 +12,7 @@ const Hero = () => {
 
       </div>
       <h1><span>I'm Praneeth</span>     Software Engineer</h1>
-      <p>I am frontend developer from Tirupati. I have worked with API integration, redux, and building responsive web applications</p>
+      <p>I am a backend-focused developer from Tirupati with hands-on experience in Java, Python, and JavaScript, building scalable APIs and data-driven applications.</p>
       <div className="hero-action">
        
         <div className="hero-connect">
